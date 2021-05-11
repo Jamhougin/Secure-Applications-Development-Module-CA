@@ -9,7 +9,7 @@ The due date for your project code along with documentation is March 5th. A docu
 Create an authentication mechanism for a web application using XAMPP, PHP & MySQL. Your application should create the underlying database on requesting the login page as a root user with no password. NB: Please test this functionality before mailing me your code, as I cannot test your application without your underlying database.  
 Your authentication mechanism should allow for the following functionality. 
 
-Register with the system.							(10% Total) 
+## Register with the system.							(10% Total) 
 
   o	The system should allow users to register with the system using a username and password.
 
@@ -19,7 +19,7 @@ Register with the system.							(10% Total)
 
 
 
-On an unsuccessful authentication attempt 					(20% Total) 
+## On an unsuccessful authentication attempt 					(20% Total) 
 
 A generic error message is presented back to the end user outlining that the username & password combination cannot be authenticated at the moment. ie… “The username Richard and password could not be authenticated at the moment”. Note that the username supplied during the authentication attempt is reflected back to the user interface in the event of an unsuccessful login attempt. 
 
@@ -27,7 +27,7 @@ A generic error message is presented back to the end user outlining that the use
 
   o	Lockout after 5 attempts for 3 minutes.
 
-On successful authentication 							(15% Total) 
+## On successful authentication 							(15% Total) 
 
   o	The system should greet the user by their username.
 
@@ -43,7 +43,7 @@ On successful authentication 							(15% Total)
 
 
 
-Password Change 								(15% Total) 
+## Password Change 								(15% Total) 
 
   o	Authenticated users should be capable of changing their password.
 
@@ -60,7 +60,7 @@ Password Change 								(15% Total)
 •	Note: “In the real world” the values contained in this request would be passed as a POST request. However, to expedite the correction & testing of this assignment you are to pass the values for this functionality in a HTTP GET request.
 
 
-Event Log & ADMIN user 							(10% Total)
+## Event Log & ADMIN user 							(10% Total)
 
   o	Your application should store unsuccessful and successful login attempts to an event log. This event log should accessible and viewable to the authenticated user “ADMIN” only. 
 
@@ -71,7 +71,7 @@ Event Log & ADMIN user 							(10% Total)
   o	This account is to be created, when your database is being created.
 
 
-Testing								(30% for Test Cases and Results)
+## Testing								(30% for Test Cases and Results)
 
 Your documentation should include security test cases and test results for all implemented functionality. In this component of the report should clearly highlight what security features you are assessing, the vulnerability type you are testing for, the tests you performed along with your results.
 
